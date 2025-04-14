@@ -2,7 +2,7 @@ name: Delete workflow run record
 on:
 # Run weekly, at 00:00 on sunday.
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * * Asia/Shanghai'
   workflow_dispatch:
 
 jobs:
