@@ -1,4 +1,5 @@
 # Zepp Sport Robot - Zepp 平台运动数据 API 研究项目
+目前出现某些问题，正在尝试修复中，各位稍安勿躁
 
 ![上次提交时间](https://img.shields.io/github/last-commit/FlameTech6/Zepp_Sport_Robot?label=%E4%B8%8A%E6%AC%A1%E6%8F%90%E4%BA%A4%E6%97%B6%E9%97%B4)
 
