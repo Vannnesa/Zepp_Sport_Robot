@@ -56,7 +56,7 @@ def login(account, password):
         res2 = res2.json()
         login_token = res2["token_info"]["login_token"]
         user_id = res2["token_info"]["user_id"]
-        print(res2)
+        #print(res2)
         return login_token, user_id
     else:
         print(f"登录失败:Login Code={res2.status_code}")
