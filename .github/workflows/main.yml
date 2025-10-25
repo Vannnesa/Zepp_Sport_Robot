@@ -1,4 +1,4 @@
-name: zepp-sport-robot
+name: 自动任务-修改Zepp当天运动数据
 
 on:
   workflow_dispatch:
@@ -9,15 +9,15 @@ jobs:
   run-python-script:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
+      - name: '检出仓库代码'
         uses: actions/checkout@v2
-      - name: 'Set up Python'
+      - name: '设置 Python 环境'
         uses: actions/setup-python@v2
         with:
           python-version: '3.12.0'
-      - name: 'Install requirements'
+      - name: '安装依赖项'
         run: pip install requests==2.26.0
-      - name: 'Working'
+      - name: '运行主程序'
         env:
           ACCOUNT: ${{ secrets.ACCOUNT }}
           PASSWORD: ${{ secrets.PASSWORD }}
