@@ -3,7 +3,8 @@ name: 自动任务-修改Zepp当天运动数据
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 09 * * *'
+    - cron: '20 17 * * *'
+      timezone: "Asia/Shanghai"
 
 jobs:
   run-python-script:
